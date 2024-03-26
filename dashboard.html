@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - Election Calgary Online</title>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=k6lptT-PNP1QRrfa3XcrFtD8eI4bjYUO7cJH9YGjnMzyNxIVtQhflUoSxav0nyr8lCyBcILHKneV2dyA7aZnTw24kj8plX8gsjSJuRzb4DpKRXOvEKx2jywjJ0vNUWlnVNtsk7E_VRBkt0adVlDW8Ovp75lB-C1KvsaJCTlyPR5LMLIkRhsDUmKg8E2PqkkQrqi28Wujigv4Si99GjCqup4CrIHGYtU9yHNwvjHfvCkA40OOKQvx2GApllLtm-6bClGvoPa32MAHh1OmHc6iDQ" charset="UTF-8"></script><style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .header {
+            background-color: #af0c21;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            color: #333;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        
+        .vote-button, button {
+            background-color: #2c2c2c;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .vote-button:hover, button:hover {
+            background-color: #2c2c2c;
+        }
+
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        .logout-link {
+            display: block;
+            margin-top: 20px;
+            text-align: right;
+            padding-right: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Election Calgary Online - User Dashboard</h1>
+    </div>
+
+    <div class="container">
+        <h2>Hello {username}. Welcome to your Dashboard</h2>
+
+        <section id="current-polls">
+            <h3>Current Polls</h3>
+            <!-- [Placeholder for current polls] -->
+            <button onclick="window.location.href=window.location.origin + '/Vote.html'">Go to Vote</button>
+            <button onclick="window.location.href=window.location.origin + '/Result.html'">Display Result</button>
+            <!-- Admin Button Placeholder -->
+        </section>
+
+        <section id="voting-history">
+            <h3>Voting History</h3>
+            <!-- [Placeholder for voting history] -->        
+        </section>
+
+        <!-- Additional sections... -->
+
+        <div class="logout-link">
+            <a href="index.html">Home</a>
+            <a href="confirm_logout.html">Logout</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Election Calgary Online
